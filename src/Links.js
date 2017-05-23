@@ -4,14 +4,14 @@ import './Links.css'
 class Links extends Component {
     render() {
         return(
-            <div className="article-links">
-          <a className="article-link" href="#">
+            <div className="links">
+          <a className="links" href="#">
             <i className="fa fa-comments-o"></i>
-            <span className="article-link-text">Comments</span>
+            <span className="links-text">Comments</span>
           </a>
-          <a className="article-link" href="#">
+          <a className="links" href="#">
             <i className="fa fa-share"></i>
-            <span className="article-link-text">Share Post</span>
+            <span className="links-text">Share Post</span>
           </a>
         </div>
         )
